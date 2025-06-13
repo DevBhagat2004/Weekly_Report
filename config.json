@@ -1,0 +1,18 @@
+{
+    "input_file": "raw_data.csv",
+    "output_file": "weekly_report_{date}.xlsx",
+    "template_file": "report_template.xlsx",
+    "data_columns": ["Date", "Product", "Sales", "Units", "Revenue", "Region"],
+    "date_column": "Date",
+    "numeric_columns": ["Sales", "Units", "Revenue"],
+    "report_settings": {
+        "filter_current_week": true,
+        "include_charts": true,
+        "auto_format": true
+    },
+    "chart_settings": {
+        "max_categories": 10,
+        "chart_types": ["bar", "line"],
+        "colors": ["#4472C4", "#E16F24", "#70AD47", "#FFC000", "#7030A0"]
+    }
+}
